@@ -10,7 +10,7 @@ app.get('/',function(req, res) {
 });
 app.use('/client',express.static(__dirname + '/client'));
 
-serv.listen(process.env.PORT || 2000);
+serv.listen(process.env.PORT || 8080);
 console.log("Server started.");
 
 var GAME_LIST = {};
